@@ -1,0 +1,45 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="using:Demo0704"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="900"
+        x:Class="Demo0704.AddEditWindow"
+        MinWidth="500"
+        MinHeight="900"
+        x:DataType="local:AddEditWindow"
+        Title="Concelaria">
+  <StackPanel>
+	  <TextBlock Text="Добавление товара" Name="Title" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="15"/>
+      <TextBlock Text="Введите артикул" Margin="5"/>
+      <TextBox Name="Article" Margin="10 5"/>
+      <TextBlock Text="Выберите наименование" Margin="5"/>
+      <ComboBox Name="Naming" ItemsSource="{Binding Namings}" DisplayMemberBinding="{Binding Name}" Margin="10 5"/>
+      <TextBlock Text="Выберите единицу измерения" Margin="5"/>
+      <ComboBox Name="Unit" ItemsSource="{Binding Units}" DisplayMemberBinding="{Binding Name}" Margin="10 5"/>
+      <TextBlock Text="Введите цену" Margin="5"/>
+      <NumericUpDown Name="Price" ShowButtonSpinner="False" Minimum="0" Margin="10 5"/>
+      <TextBlock Text="Введите максимальную скидку" Margin="5"/>
+      <NumericUpDown Name="MaxDiscount" ShowButtonSpinner="False" Minimum="0" Margin="10 5"/>
+      <TextBlock Text="Выберите производителя" Margin="5"/>
+      <ComboBox Name="Manufacturer" ItemsSource="{Binding Manufacturers}" DisplayMemberBinding="{Binding Name}" Margin="10 5"/>
+      <TextBlock Text="Выберите поставщика" Margin="5"/>
+      <ComboBox Name="Postavshik" ItemsSource="{Binding Postavshiki}" DisplayMemberBinding="{Binding Name}" Margin="10 5"/>
+      <TextBlock Text="Выберите категорию" Margin="5"/>
+      <ComboBox Name="Category" ItemsSource="{Binding Categories}" DisplayMemberBinding="{Binding Name}" Margin="10 5"/>
+      <TextBlock Text="Введите действующую сидку" Margin="5"/>
+      <NumericUpDown ShowButtonSpinner="False" Minimum="0" Name="CurrentDiscount" Margin="10 5"/>
+      <TextBlock Text="Введите количество на складе" Margin="5"/>
+      <NumericUpDown ShowButtonSpinner="False" Minimum="0" Name="QuantityInStorage" Margin="10 5"/>
+      <TextBlock Text="Введите описание" Margin="5"/>
+      <TextBox Name="Description" Margin="10 5"/>
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+		  <Button Click="Cancel" Margin="15" BorderBrush="Black" BorderThickness="2" Background="Red">
+		  <TextBlock Text="Отмена" Foreground="White"/>
+      </Button>
+          <Button Click="AddOrEdit" Margin="15" BorderBrush="Black" BorderThickness="2" Background="Green">
+		  <TextBlock Text="Сохранить" Foreground="White" Name="ButtonAddEditTextBlock"/>
+      </Button>
+      </StackPanel>
+  </StackPanel>
+</Window>

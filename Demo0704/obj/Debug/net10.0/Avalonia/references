@@ -22,15 +22,37 @@ C:\Users\class_student\.nuget\packages\avalonia\11.3.12\ref\net8.0\Avalonia.Vulk
 C:\Users\class_student\.nuget\packages\avalonia.win32\11.3.12\lib\net8.0\Avalonia.Win32.Automation.dll
 C:\Users\class_student\.nuget\packages\avalonia.win32\11.3.12\lib\net8.0\Avalonia.Win32.dll
 C:\Users\class_student\.nuget\packages\avalonia.x11\11.3.12\lib\net8.0\Avalonia.X11.dll
+C:\Users\class_student\.nuget\packages\dialoghost.avalonia\0.8.1\lib\netstandard2.0\DialogHost.Avalonia.dll
 C:\Users\class_student\.nuget\packages\harfbuzzsharp\8.3.1.1\lib\net8.0\HarfBuzzSharp.dll
 C:\Users\class_student\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
+C:\Users\class_student\.nuget\packages\microsoft.codeanalysis.csharp\5.3.0\lib\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\class_student\.nuget\packages\microsoft.codeanalysis.csharp.scripting\5.3.0\lib\net10.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\class_student\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\5.3.0\lib\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\class_student\.nuget\packages\microsoft.codeanalysis.common\5.3.0\lib\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\class_student\.nuget\packages\microsoft.codeanalysis.scripting.common\5.3.0\lib\net10.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\class_student\.nuget\packages\microsoft.codeanalysis.workspaces.common\5.3.0\lib\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\Microsoft.CSharp.dll
+C:\Users\class_student\.nuget\packages\microsoft.entityframeworkcore.abstractions\10.0.5\lib\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\class_student\.nuget\packages\microsoft.entityframeworkcore\10.0.5\lib\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\class_student\.nuget\packages\microsoft.entityframeworkcore.relational\10.0.5\lib\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.caching.abstractions\10.0.5\lib\net10.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.caching.memory\10.0.5\lib\net10.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.configuration.abstractions\10.0.5\lib\net10.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\10.0.5\lib\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.dependencyinjection\10.0.5\lib\net10.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.logging.abstractions\10.0.5\lib\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.logging\10.0.5\lib\net10.0\Microsoft.Extensions.Logging.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.options\10.0.5\lib\net10.0\Microsoft.Extensions.Options.dll
+C:\Users\class_student\.nuget\packages\microsoft.extensions.primitives\10.0.5\lib\net10.0\Microsoft.Extensions.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\Microsoft.VisualBasic.Core.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\Microsoft.VisualBasic.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\Microsoft.Win32.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\Microsoft.Win32.Registry.dll
+C:\Users\class_student\.nuget\packages\messagebox.avalonia\3.3.1.1\lib\netstandard2.0\MsBox.Avalonia.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\netstandard.dll
+C:\Users\class_student\.nuget\packages\npgsql\10.0.2\lib\net10.0\Npgsql.dll
+C:\Users\class_student\.nuget\packages\npgsql.entityframeworkcore.postgresql\10.0.1\lib\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\class_student\.nuget\packages\skiasharp\2.88.9\lib\net6.0\SkiaSharp.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.Buffers.dll
@@ -45,6 +67,11 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\Syste
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.ComponentModel.EventBasedAsync.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.ComponentModel.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.ComponentModel.TypeConverter.dll
+C:\Users\class_student\.nuget\packages\system.composition.attributedmodel\9.0.0\lib\net9.0\System.Composition.AttributedModel.dll
+C:\Users\class_student\.nuget\packages\system.composition.convention\9.0.0\lib\net9.0\System.Composition.Convention.dll
+C:\Users\class_student\.nuget\packages\system.composition.hosting\9.0.0\lib\net9.0\System.Composition.Hosting.dll
+C:\Users\class_student\.nuget\packages\system.composition.runtime\9.0.0\lib\net9.0\System.Composition.Runtime.dll
+C:\Users\class_student\.nuget\packages\system.composition.typedparts\9.0.0\lib\net9.0\System.Composition.TypedParts.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.Configuration.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.Console.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.3\ref\net10.0\System.Core.dll

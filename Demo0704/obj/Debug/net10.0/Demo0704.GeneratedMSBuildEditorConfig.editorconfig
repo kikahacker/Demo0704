@@ -36,5 +36,11 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/class_student/source/repos/last/Demo0704/Demo0704/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/class_student/source/repos/last/Demo0704/Demo0704/ConcelariaUserControl.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/class_student/source/repos/last/Demo0704/Demo0704/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/class_student/source/repos/last/Demo0704/Demo0704/Windows/AddEditWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

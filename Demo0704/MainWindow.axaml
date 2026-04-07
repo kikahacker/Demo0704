@@ -1,9 +1,29 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="using:Demo0704"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="600"
         x:Class="Demo0704.MainWindow"
-        Title="Demo0704">
-    Welcome to Avalonia!
+        MinWidth="1200"
+        MinHeight="600"
+        
+        x:DataType="local:MainWindow"
+        Title="Concelaria">
+    <Grid Margin="10 15 0 0" RowDefinitions="30,Auto,*">
+		<TextBlock HorizontalAlignment="Center"
+                   Text="Concelaria"
+                   FontSize="24"
+                   FontWeight="Bold"/>
+        <StackPanel Margin="10" Orientation="Horizontal" Grid.Row="1">
+			<TextBox Name="Search" Width="600" Margin="5" KeyUp="Search_KeyUp"/>
+            <ComboBox Name="PriceSort" Margin="5" SelectionChanged="PriceSort_SelectionChanged"/>
+            <ComboBox Name="DiscountSort" Margin="5" SelectionChanged="DiscountSort_SelectionChanged"/>
+            <TextBlock Text="00 / 00" Margin="20 10" FontSize="18" Name="QuantityConcelaria"/>
+            <Button Click="Add_Concelaria" Background="Green" BorderBrush="Black" BorderThickness="2">
+				<TextBlock Text="Добавить товар" Foreground="White"/>
+            </Button>
+        </StackPanel>
+        <ListBox Grid.Row="2" Name="ConcelariaListBox" ItemsSource="{Binding concelariaUserControls}"  DoubleTapped="ListBox_DoubleTapped"/>
+    </Grid>
 </Window>
