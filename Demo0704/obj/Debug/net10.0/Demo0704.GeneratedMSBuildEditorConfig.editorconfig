@@ -42,5 +42,8 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/class_student/source/repos/last/Demo0704/Demo0704/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/class_student/source/repos/last/Demo0704/Demo0704/Window1.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/class_student/source/repos/last/Demo0704/Demo0704/Windows/AddEditWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -24,6 +24,7 @@ public partial class AddEditWindow : Window
        
         InitializeComponent();
         FillLists();
+        DataContext = new Concelarium();
     }
     public AddEditWindow(Concelarium editItem)
     {
@@ -32,7 +33,8 @@ public partial class AddEditWindow : Window
         InitializeComponent();
         FillLists();
         Title.Text = $"Редактирование товара #{editItem.Article}";
-        Article.Text = editItem.Article;
+        DataContext = editItem;
+       
         Naming.SelectedItem = editItem.Naming;
         Unit.SelectedItem = editItem.Unit;
         Price.Text = editItem.Price.ToString();
@@ -84,6 +86,7 @@ public partial class AddEditWindow : Window
         {
             try
             {
+                var item = DataContext as Concelarium;
                 _editconcelaria = new Concelarium();
                 _editconcelaria.Article = Article.Text;
                 _editconcelaria.Naming = (Naming?)Naming.SelectedItem;
